@@ -102,6 +102,7 @@ while loop:
     canvas.blit(ball_image, (ball_x - 30/2 ,ball_y - 120/2))
     canvas.blit(paddle_image,(x2, y2))
     clock.tick(60)
+    
 
     pygame.display.flip()
 
